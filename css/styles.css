@@ -299,14 +299,35 @@ ol {
 .input-modal:focus+.svg-modal {
     fill: var(--primary-brand-color);
 }
-.select {
-  padding-top: 40px;
-  padding-left: 120px; 
-}
 .text-color {
     color: red;
     font-size: 16px;
     font-weight: 500;
+}
+.send-button {
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--primary-brand-color);
+    color: var(--white-background-color);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    
+.send-button:hover,
+.send-button:focus {
+     background-color: var(--pressed-state-color);
+}
+
+.send-button:active {
+    background-color: var(--primary-brand-color);
 }
 
 
