@@ -245,16 +245,7 @@ ol {
     background-size: cover;
     background-repeat: no-repeat;
    }
-          @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
-          (min-resolution: 192dpi),
-          (min-resolution: 2dppx) {
-    
-              /* Style adjustments for high resolution devices */
-              .section-home {
-                  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/IMG_20220316_210254_258@2x.jpg);
-                  background-size: 1140px 1140px;
-              }
-          }
+          
    .page-title {
     color: var(--white-background-color);
     text-align: center;
