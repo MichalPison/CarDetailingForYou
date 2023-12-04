@@ -149,6 +149,28 @@ ol {
     padding-bottom: 35px;
     padding-top: 10px;
 }
+.ordner-service {
+    background-color: var(--primary-brand-color);
+    color: var(--white-background-color);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ordner-service:hover,
+.ordner-service:focus {
+    background-color: var(--pressed-state-color);
+    color: var(--white-background-color);
+}
 .image-list {
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +207,9 @@ ol {
             0px 1px 1px 0px rgba(46, 47, 66, 0.16),
             0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
+/*------------------MODAL---------------*/
+
 .modal {
     position: fixed;
     top: 0;
@@ -232,6 +257,10 @@ ol {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-button > svg {
+    width: 12px;
+    height: 12px;
 }
 .modal-close-button:hover,
 .modal-close-button:focus {
@@ -403,24 +432,4 @@ ol {
     max-width: 320px;
     padding-bottom: 72px;
    }
-   .ordner-service {
-    background-color: var(--primary-brand-color);
-    color: var(--white-background-color);
-    font-family: inherit;
-    font-size: 16px;
-     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .ordner-service:hover,
-    .ordner-service:focus {
-        background-color: var(--pressed-state-color);
-            color: var(--white-background-color);
-    } 
+   
